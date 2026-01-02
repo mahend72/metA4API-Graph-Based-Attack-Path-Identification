@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Sample Pulse 1",
+    "created": "2025-12-01T10:00:00.000",
+    "revision": 1,
+    "adversary": "APT-Sample",
+    "industries": [
+      "Manufacturing",
+      "Energy"
+    ],
+    "targeted_countries": [
+      "IN",
+      "GB"
+    ],
+    "attack_ids": [
+      "T1059.003"
+    ],
+    "malware_families": [
+      "SampleWare"
+    ],
+    "indicators": [
+      {
+        "indicator": "8.8.8.8",
+        "type": "IPv4",
+        "title": "DNS",
+        "description": "",
+        "content": ""
+      },
+      {
+        "indicator": "example.com",
+        "type": "domain",
+        "title": "",
+        "description": "",
+        "content": ""
+      },
+      {
+        "indicator": "CVE-2024-0001",
+        "type": "CVE",
+        "title": "",
+        "description": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "name": "Sample Pulse 2",
+    "created": "2025-11-15T09:00:00.000",
+    "revision": 2,
+    "adversary": "APT-Other",
+    "industries": [
+      "Manufacturing"
+    ],
+    "targeted_countries": [
+      "IN"
+    ],
+    "attack_ids": [
+      "T1566.001"
+    ],
+    "malware_families": [
+      "OtherWare"
+    ],
+    "indicators": [
+      {
+        "indicator": "1.1.1.1",
+        "type": "IPv4",
+        "title": "",
+        "description": "",
+        "content": ""
+      },
+      {
+        "indicator": "example.com",
+        "type": "domain",
+        "title": "",
+        "description": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "name": "Sample Pulse 3 (same attacker)",
+    "created": "2025-11-20T09:00:00.000",
+    "revision": 1,
+    "adversary": "APT-Sample",
+    "industries": [
+      "Energy"
+    ],
+    "targeted_countries": [
+      "GB"
+    ],
+    "attack_ids": [
+      "T1059.003"
+    ],
+    "malware_families": [
+      "SampleWare"
+    ],
+    "indicators": [
+      {
+        "indicator": "support@example.com",
+        "type": "email"
+      },
+      {
+        "indicator": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "FileHash-MD5"
+      }
+    ]
+  }
+]
