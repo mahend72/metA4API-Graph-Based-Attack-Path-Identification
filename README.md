@@ -7,15 +7,15 @@ A small, reproducible Python repo that turns threat-feed IOC data (e.g., AlienVa
 - **MIIS/MPGIIS-style attacker similarity matrix** (Dice on meta-path counts)
 - Optional **GCN autoencoder embeddings** (unsupervised)
 
-This repo is a cleaned, modularized implementation based on the attached `IOCEvaluator.ipynb` notebook.
+This repo is a cleaned, modularised implementation based on the attached `IOCEvaluator.ipynb` notebook.
 
 ## Repository structure
 
 ```text
 .
 ├─ iocevaluator/                 # library code (importable package)
-│  ├─ io_loader.py               # load/save normalized JSON
-│  ├─ otx_client.py              # fetch + normalize OTX pulses (no keys in code)
+│  ├─ io_loader.py               # load/save normalised JSON
+│  ├─ otx_client.py              # fetch + normalise OTX pulses (no keys in code)
 │  ├─ event_builder.py           # build Event objects from ThreatRecords
 │  ├─ relations.py               # attacker↔IOC relation matrices + commuting matrices
 │  ├─ mpgiis.py                  # MIIS/MPGIIS-style aggregation
