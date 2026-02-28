@@ -7,7 +7,7 @@ A small, reproducible Python repo that turns threat-feed IOC data (e.g., AlienVa
 - **MIIS/MPGIIS-style attacker similarity matrix** (Dice on meta-path counts)
 - Optional **GCN autoencoder embeddings** (unsupervised)
 
-This repo is a cleaned, modularised implementation based on the attached `IOCEvaluator.ipynb` notebook.
+This repo is a cleaned, modularised implementation based on the linked `IOCEvaluator.ipynb` notebook.
 
 ## Repository structure
 
