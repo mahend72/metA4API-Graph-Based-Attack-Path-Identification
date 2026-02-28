@@ -128,7 +128,7 @@ Outputs:
 - Removed hard-coded API keys; uses **environment variables** (`OTX_API_KEY`).
 - Replaced duplicated / inconsistent functions with a single tested implementation:
   - relation matrices are built directly from `Event` objects
-  - MIIS aggregation is vectorized and numerically safe
+  - MIIS aggregation is vectorised and numerically safe
 - Converted the notebook flow into a clean **package + CLI** with clear outputs.
 
 ## Notes
