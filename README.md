@@ -129,7 +129,7 @@ Outputs:
 - Replaced duplicated / inconsistent functions with a single tested implementation:
   - relation matrices are built directly from `Event` objects
   - MIIS aggregation is vectorised and numerically safe
-- Converted the notebook flow into a clean **package + CLI** with clear outputs.
+- Converted the flow into a clean **package + CLI** with clear outputs.
 
 ## Notes
 
