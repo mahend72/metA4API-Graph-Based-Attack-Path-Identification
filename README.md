@@ -24,7 +24,7 @@ This repo is a cleaned, modularised implementation based on the attached `IOCEva
 │  ├─ pipeline.py                # end-to-end pipeline
 │  └─ cli.py                     # command line interface
 ├─ scripts/
-│  └─ export_otx_to_json.py       # helper: export OTX to normalized JSON
+│  └─ export_otx_to_json.py       # helper: export OTX to normalised JSON
 ├─ notebooks/
 │  └─ IOCEvaluator_original.ipynb # your original notebook (kept as reference)
 ├─ .env.example
