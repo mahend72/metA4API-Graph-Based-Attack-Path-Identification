@@ -107,8 +107,8 @@ This will write:
 
 - `out/attackers.csv` – attacker list (node order)
 - `out/features.npy` – attacker feature matrix (N×D)
-- `out/miis.npy` – attacker similarity / adjacency (N×N)
-- `out/threats_normalized.json` – sanitized normalized copy
+- `out/miis.npy` – attacker similarity/adjacency (N×N)
+- `out/threats_normalized.json` – sanitised normalised copy
 
 ### 3) Run with GCN embeddings (optional)
 
